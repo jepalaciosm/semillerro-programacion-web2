@@ -47,7 +47,7 @@
   {/capture}
 {capture assign="portada"}
   
-  <img src="http://comutricolor.com/wp-content/uploads/2013/10/seleccion-colombia.png">
+  <img src="http://www.3dcloudmotion.com/wp-content/uploads/2014/06/Slider-4.png">
   
   {/capture}
   

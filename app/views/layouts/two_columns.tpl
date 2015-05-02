@@ -2,7 +2,7 @@
   {include file="./inc/header.tpl"}
 </div>
 <div class="row">
-  
+    {$portada}
 </div>
 <div class="row">
   
