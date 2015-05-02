@@ -48,7 +48,7 @@
 {capture assign="portada"}
   
   <img src="http://www.3dcloudmotion.com/wp-content/uploads/2014/06/Slider-4.png">
-  
+  <p><br>
   {/capture}
   
   {include file="../masterpage/template.tpl" layout="two_columns"}
