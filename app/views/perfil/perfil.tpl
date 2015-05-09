@@ -1,8 +1,11 @@
 {capture assign="left"}  
   {Auth::check()}
-  <center><img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10516802_727098207344364_6397306397119633881_n.jpg?oh=396acbf8d13c52aa5423bea99115f860&oe=55CE890C&__gda__=1440954804_6c4efe329f17f6db84e5a3a317f03447" width="150" height="150"></center>
+  <center><img src="{url('assets/img/profile')}/{$foto}" width="150" height="150"></center>
   <div class="well"> 
     Información
+   
+    <center><p>{Auth::user()->nombre}</p></center>   
+    <center><p>{Auth::user()->correo}</p></center>
   </div>
   
   {/capture}

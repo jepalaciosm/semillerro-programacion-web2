@@ -16,7 +16,8 @@
       
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Buscar personas, lugares" class="input-md">
+            
+          <input type="text" class="typeahead" data-provide="typeahead" data-source='[{$amigos}]' placeholder="Buscar personas, lugares">
         </div>
       </form>
       <ul class="nav navbar-nav navbar-right">
@@ -39,7 +40,7 @@
             <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
-            <li><a href="{url('/logout')}"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Salir</a></li>
+            <li><a href="{url('profile/logout')}"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Salir</a></li>
           </ul>
         </li>
       </ul>

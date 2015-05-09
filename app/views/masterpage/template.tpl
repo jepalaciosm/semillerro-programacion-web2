@@ -7,6 +7,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
         
+        {HTML::script('libs/typeahead/typeahead.min.js')}
         {HTML::script('assets/js/app.js')}
         
     </head>
